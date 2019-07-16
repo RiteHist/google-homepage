@@ -1,0 +1,1 @@
+Odin project showing knowledge of HTML/CSS. Copy of a Google mainpage.
