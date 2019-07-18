@@ -8,19 +8,21 @@
     <body>
         <header>
             <ul class="hList">
-                <li>Gmail</li>
-                <li>Images</li>
-                <li><img id="other" src="resources/otherGP.png"></li>
+                <li class="text">Gmail</li>
+                <li class="text">Images</li>
+                <li><img id="other" src="resources/otherGP.PNG"></li>
                 <li><img id="profile" src="resources/profile.png"></li>
             </ul>
         </header>
         <div class="center">
             <img id="logo" src="resources/logo.png">
             <form>
-                <input id="search" type="text">
+                <div class="box"><input id="search" type="text"></div>
                 <br>
-                <input class="button" type="submit" value="Google Search">
-                <input class="button" type="submit" value="I'm Feeling Lucky">
+                <div class="box" id="butone">
+                    <input class="button" type="submit" value="Google Search">
+                    <input class="button" type="submit" value="I'm Feeling Lucky">
+                </div>
             </form>
         </div>
         <footer>
